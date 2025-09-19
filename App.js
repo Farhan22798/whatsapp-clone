@@ -34,9 +34,9 @@ import notifee, { AndroidImportance, AndroidCategory, EventType } from '@notifee
 
 const Stack = createNativeStackNavigator();
 
-let appID = "2748663902141719";
-let region = "in";
-const authKey = '627b966ffeb3286f816b53ebea5319ab6d825cdb';
+let appID = "";
+let region = "";
+const authKey = '';
 
 const App = ({ navigation }) => {
 
