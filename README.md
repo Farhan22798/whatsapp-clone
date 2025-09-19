@@ -1,97 +1,194 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+---
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+````markdown
+# 📱 WhatsApp Clone (React Native + CometChat SDK)
 
-## Step 1: Start Metro
+A **WhatsApp-style chat application** built with **React Native** and **CometChat SDK**, featuring real-time chat, calling, reactions, threads, group management, and more.  
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+This project demonstrates how to build a **full-featured chat app** using CometChat’s SDK and UI components, customized to replicate WhatsApp-like functionality.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+---
 
-```sh
-# Using npm
-npm start
+## 🚀 Features Implemented
 
-# OR using Yarn
-yarn start
-```
+✅ **1-on-1 & Group Chat** (real-time)  
+✅ **Text Messages**  
+✅ **Media Messages (images, videos, audio, files)**  
+✅ **Group Action Messages** (join, leave, kick, ban, etc.)  
+✅ **Call Action Messages**  
+✅ **Edit & Delete Messages** (real-time sync)  
+✅ **Message Reactions**  
+✅ **Threaded Replies**  
+✅ **Pagination** in Message List & Conversations  
+✅ **Real-time Read Receipts** for 1-on-1 chats (Sent ✓, Delivered ✓✓, Read ✓✓ in blue)  
+✅ **Delete / Reset Conversation**  
+✅ **Typing Indicators** (real-time)  
+✅ **Online/Offline User Status**  
+✅ **Conversations List Auto-Update** (new messages move chat to top)  
+✅ **Unread Message Counts**  
+✅ **Default Calls** – Audio/Video 1-on-1  
+✅ **Direct Calls** – Audio/Video for Groups  
+✅ **Group Details View**  
+   - 👑 If **Admin** → View/Add/Kick/Ban/Delete members, Delete group  
+   - 👥 If **Participant** → View members only  
 
-## Step 2: Build and run your app
+_All features tested successfully on 3 physical devices after APK build._
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+---
 
-### Android
+## 🛠️ Prerequisites
 
-```sh
-# Using npm
-npm run android
+Before running the app, ensure you have the following:
 
-# OR using Yarn
-yarn android
-```
+### General
+- [Node.js](https://nodejs.org/) **v18 or higher**
+- [React Native](https://reactnative.dev/) **v0.77 or later**
 
 ### iOS
+- Xcode  
+- CocoaPods (`pod`)  
+- iOS device/emulator with iOS **12.0+**
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+### Android
+- Android Studio  
+- Android device/emulator with Android **5.0+**
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+---
 
-```sh
-bundle install
+## ⚙️ Setup & Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/whatsapp-clone-cometchat.git
+cd whatsapp-clone-cometchat
+````
+
+### 2. Install Dependencies
+
+```bash
+npm install
+# OR
+yarn install
 ```
 
-Then, and every time you update your native dependencies, run:
+### 3. Configure CometChat Credentials
 
-```sh
-bundle exec pod install
+1. Register on [CometChat Dashboard](https://app.cometchat.io/).
+
+2. Create a **new app** inside your CometChat account.
+
+3. Copy the following credentials:
+
+   * **App ID**
+   * **Region**
+   * **Auth Key**
+
+4. Open `App.tsx` and update the credentials:
+
+```tsx
+let appID = "YOUR_APP_ID";
+let region = "YOUR_APP_REGION";
+const authKey = "YOUR_AUTH_KEY";
 ```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+### 4. Run on iOS
 
-```sh
-# Using npm
+```bash
+cd ios
+pod install
+cd ..
 npm run ios
-
-# OR using Yarn
-yarn ios
 ```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+### 5. Run on Android
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+```bash
+npm run android
+```
 
-## Step 3: Modify your app
+---
 
-Now that you have successfully run the app, let's make changes!
+## 📸 Features Showcase
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+## 🖼️ Screenshots
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+### 🔐 Authentication Flow
+| Login | Create Account |
+|-------|----------------|
+| ![Login](./Screenshots/Login.jpg) | ![CreateAccount](./Screenshots/CreateAccount.jpg) |
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+---
 
-## Congratulations! :tada:
+### 💬 Chat Interface
+| Chat Screen | Chat Options | Users List |
+|-------------|--------------|------------|
+| ![ChatScreen](./Screenshots/ChatScreen.jpg) | ![ChatScreenMore](./Screenshots/ChatScreenMore.jpg) | ![Users](./Screenshots/Users.jpg) |
 
-You've successfully run and modified your React Native App. :partying_face:
+---
 
-### Now what?
+### 📞 Calling
+| Incoming Call | Outgoing Call | Ongoing Call | Call Logs |
+|---------------|---------------|--------------|-----------|
+| ![IncomingCall](./Screenshots/IncomingCall.jpg) | ![OutgoingCallScreen](./Screenshots/OutgoingCallScreen.jpg) | ![OngoingCallScreen](./Screenshots/OngoingCallScreen.jpg) | ![CallLogs](./Screenshots/CallLogs.jpg) |
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+---
 
-# Troubleshooting
+### 👥 Groups
+| Create Group | Join Group | Group Members | Add Members | Banned Members |
+|--------------|------------|----------------|-------------|----------------|
+| ![CreateGroup](./Screenshots/CreateGoup.jpg) | ![JoinGroup](./Screenshots/JoinGroup.jpg) | ![GroupMembers](./Screenshots/GroupMembers.jpg) | ![AddMembersToGroup](./Screenshots/AddMembersToGroup.jpg) | ![BannedMembers](./Screenshots/BannedMembers.jpg) |
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+---
 
-# Learn More
+### 🙍 Profile
+| Profile |
+|---------|
+| ![Profile](./Screenshots/Profile.jpg) |
 
-To learn more about React Native, take a look at the following resources:
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+---
+
+## 📦 Tech Stack
+
+* **React Native** (v0.77)
+* **CometChat SDK** (Chat + Calling)
+* **Firebase (FCM)** – Push Notifications
+* **Day.js** – Date/Time Formatting
+* **Context API** – State & Localization
+* **React Native Navigation**
+
+---
+
+## 📖 How to Use
+
+1. Register/Login with a sample user (pre-created in your CometChat dashboard).
+2. Start a 1-on-1 or group chat.
+3. Try sending messages, media, reactions, editing/deleting, starting threads, and making calls.
+4. If logged in as **Admin**, manage group members.
+
+---
+
+## 📌 Notes
+
+* This app is **not published on Play Store/App Store**.
+* To test:
+
+  * Install via **APK (Android)** or
+  * Run on **iOS/Android emulator** locally.
+* APK builds can be found in the `release/` folder (if added).
+
+---
+
+## 📬 Contact
+
+- [Portfolio](https://portfolio-farhan-ahmeds-projects-10079003.vercel.app)
+- [GitHub](https://github.com/Farhan22798)
+- [Email](mailto:mohdfarhan227@gmail.com)
+
+---
+
+````
+
+---
+
