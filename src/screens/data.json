@@ -1,0 +1,190 @@
+{
+    "data": [
+        {
+            "id": "1776",
+            "conversationId": "superhero2_user_superhero3",
+            "sender": "superhero2",
+            "receiverType": "user",
+            "receiver": "superhero3",
+            "category": "call",
+            "type": "audio",
+            "data": {
+                "action": "initiated",
+                "entities": {
+                    "by": {
+                        "entity": {
+                            "uid": "superhero2",
+                            "name": "Captain America",
+                            "role": "default",
+                            "avatar": "https://data-eu.cometchat.io/assets/images/avatars/captainamerica.png",
+                            "status": "offline"
+                        },
+                        "entityType": "user"
+                    },
+                    "on": {
+                        "entity": {
+                            "data": {
+                                "entities": {
+                                    "sender": {
+                                        "entity": {
+                                            "uid": "superhero2",
+                                            "name": "Captain America",
+                                            "role": "default",
+                                            "avatar": "https://data-eu.cometchat.io/assets/images/avatars/captainamerica.png",
+                                            "status": "offline"
+                                        },
+                                        "entityType": "user"
+                                    },
+                                    "receiver": {
+                                        "entity": {
+                                            "uid": "superhero3",
+                                            "name": "Spiderman",
+                                            "role": "default",
+                                            "avatar": "https://data-eu.cometchat.io/assets/images/avatars/spiderman.png",
+                                            "status": "offline",
+                                            "conversationId": "superhero2_user_superhero3"
+                                        },
+                                        "entityType": "user"
+                                    }
+                                },
+                                "metadata": {
+                                    "key": {
+                                        "one": "two"
+                                    }
+                                }
+                            },
+                            "type": "audio",
+                            "sender": "superhero2",
+                            "status": "initiated",
+                            "joinedAt": 1646995097,
+                            "receiver": "superhero3",
+                            "sessionid": "16469950973f7f6a1ea6d5166db11c929cdbde6a61902e10ba",
+                            "wsChannel": {
+                                "secret": "083c2a7f660150e42c2bf07a17231e90980b290d",
+                                "service": "19757e59e8b9669.call",
+                                "identity": "[19757e59e8b9669]16469950973f7f6a1ea6d5166db11c929cdbde6a61902e10ba"
+                            },
+                            "initiatedAt": 1646995097,
+                            "receiverType": "user",
+                            "conversationId": "superhero2_user_superhero3"
+                        },
+                        "entityType": "call"
+                    },
+                    "for": {
+                        "entity": {
+                            "uid": "superhero3",
+                            "name": "Spiderman",
+                            "role": "default",
+                            "avatar": "https://data-eu.cometchat.io/assets/images/avatars/spiderman.png",
+                            "status": "offline",
+                            "conversationId": "superhero2_user_superhero3"
+                        },
+                        "entityType": "user"
+                    }
+                }
+            },
+            "sentAt": 1646995097,
+            "updatedAt": 1646995097
+        },
+        {
+            "id": "1777",
+            "conversationId": "superhero2_user_superhero3",
+            "sender": "superhero3",
+            "receiverType": "user",
+            "receiver": "superhero2",
+            "category": "call",
+            "type": "video",
+            "data": {
+                "action": "ongoing",
+                "entities": {
+                    "by": {
+                        "entity": {
+                            "uid": "superhero3",
+                            "name": "Spiderman",
+                            "role": "default",
+                            "avatar": "https://data-eu.cometchat.io/assets/images/avatars/spiderman.png",
+                            "status": "offline"
+                        },
+                        "entityType": "user"
+                    },
+                    "on": {
+                        "entity": {
+                            "data": {
+                                "entities": {
+                                    "sender": {
+                                        "entity": {
+                                            "uid": "superhero2",
+                                            "name": "Captain America",
+                                            "role": "default",
+                                            "avatar": "https://data-eu.cometchat.io/assets/images/avatars/captainamerica.png",
+                                            "status": "offline"
+                                        },
+                                        "entityType": "user"
+                                    },
+                                    "receiver": {
+                                        "entity": {
+                                            "uid": "superhero3",
+                                            "name": "Spiderman",
+                                            "role": "default",
+                                            "avatar": "https://data-eu.cometchat.io/assets/images/avatars/spiderman.png",
+                                            "status": "offline",
+                                            "conversationId": "superhero2_user_superhero3"
+                                        },
+                                        "entityType": "user"
+                                    }
+                                },
+                                "metadata": {
+                                    "key": {
+                                        "one": "two"
+                                    }
+                                }
+                            },
+                            "type": "video",
+                            "sender": "superhero2",
+                            "status": "ongoing",
+                            "joinedAt": 1646995512,
+                            "receiver": "superhero3",
+                            "sessionid": "16469950973f7f6a1ea6d5166db11c929cdbde6a61902e10ba",
+                            "startedAt": 1646995512,
+                            "wsChannel": {
+                                "secret": "083c2a7f660150e42c2bf07a17231e90980b290d",
+                                "service": "19757e59e8b9669.call",
+                                "identity": "[19757e59e8b9669]16469950973f7f6a1ea6d5166db11c929cdbde6a61902e10ba"
+                            },
+                            "initiatedAt": 1646995097,
+                            "receiverType": "user",
+                            "conversationId": "superhero2_user_superhero3"
+                        },
+                        "entityType": "call"
+                    },
+                    "for": {
+                        "entity": {
+                            "uid": "superhero2",
+                            "name": "Captain America",
+                            "role": "default",
+                            "avatar": "https://data-eu.cometchat.io/assets/images/avatars/captainamerica.png",
+                            "status": "offline",
+                            "conversationId": "superhero2_user_superhero3"
+                        },
+                        "entityType": "user"
+                    }
+                }
+            },
+            "sentAt": 1646995512,
+            "updatedAt": 1646995512
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 0,
+            "count": 2,
+            "per_page": 100,
+            "current_page": 1,
+            "total_pages": 1
+        },
+        "cursor": {
+            "id": 1786,
+            "affix": "prepend"
+        }
+    }
+}

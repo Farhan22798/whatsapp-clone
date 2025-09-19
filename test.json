@@ -1,0 +1,105 @@
+payload: {
+    "messageId": "1752064603878309",
+    "from": "90922268550",
+    "data": {
+        "receiverName": "UserB",
+        "senderName": "UserA",
+        "sender": "user-a",
+        "type": "call",
+        "conversationId": "user-a_user_user-b",
+        "tag": "3839",
+        "callType": "audio",
+        {
+            "id": "3839",
+            "conversationId": "user-a_user_user-b",
+            "sender": "user-a",
+            "receiverType": "user",
+            "receiver": "user-b",
+            "category": "call",
+            "type": "audio",
+            "data": {
+                "action": "initiated",
+                "entities": {
+                    "by": {
+                        "entity": {
+                            "uid": "user-a",
+                            "name": "UserA",
+                            "entityType": "user"
+                        },
+                        "entityType": "user"
+                    },
+                    "for": {
+                        "entity": {
+                            "uid": "user-b",
+                            "name": "UserB",
+                            "metadata": {
+                                "userb": "yoooo"
+                            },
+                            "entityType": "user"
+                        },
+                        "entityType": "user"
+                    },
+                    "on": {
+                        "entity": {
+                            "sessionid": "v1.in.2748663902141719.1752064603dcb8fcbb66471651fee1ac0e867ea7ad4850ad45",
+                            "conversationId": "user-a_user_user-b",
+                            "sender": "user-a",
+                            "receiverType": "user",
+                            "receiver": "user-b",
+                            "status": "initiated",
+                            "type": "audio",
+                            "data": {
+                                "entities": {
+                                    "sender": {
+                                        "entity": {
+                                            "uid": "user-a",
+                                            "name": "UserA",
+                                            "entityType": "user"
+                                        },
+                                        "entityType": "user"
+                                    },
+                                    "receiver": {
+                                        "entity": {
+                                            "uid": "user-b",
+                                            "name": "UserB",
+                                            "metadata": {
+                                                "userb": "yoooo"
+                                            },
+                                            "entityType": "user"
+                                        },
+                                        "entityType": "user"
+                                    }
+                                }
+                            },
+                            "initiatedAt": 1752064603,
+                            "wsChannel": {
+                                "identity": "[2748663902141719]v1.in.2748663902141719.1752064603dcb8fcbb66471651fee1ac0e867ea7ad4850ad45",
+                                "secret": "63fd9c3f444cdf1d42b1f43322c535b3e91a5986",
+                                "service": "2748663902141719.call"
+                            },
+                            "joinedAt": 1752064603
+                        },
+                        "entityType": "call"
+                    }
+                },
+                "resource": "Android-4_0_10-e3KB96BlWrNbTccM5bzUSziuROBm4C-1752064514699"
+            },
+            "sentAt": 1752064603,
+            "updatedAt": 1752064603
+        }
+        "callAction": "initiated",
+        "receiver": "user-b",
+        "title": "UserA",
+        "sentAt": "1752064603000",
+        "receiverType": "user",
+        "sessionId": "v1.in.2748663902141719.1752064603dcb8fcbb66471651fee1ac0e867ea7ad4850ad45",
+        "body": "AUDIO CALL"
+    },
+    "notification": {
+        "body": "AUDIO CALL",
+        "sound": "default",
+        "title": "UserA"
+    },
+    "mutableContent": true,
+    "category": "CC_NOTIFICATION_CATEGORY"
+}

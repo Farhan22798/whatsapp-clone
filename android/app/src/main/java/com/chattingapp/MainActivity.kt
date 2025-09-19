@@ -1,4 +1,4 @@
-package com.chattingapp
+package com.cometchat.sampleapp.reactnative.android
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

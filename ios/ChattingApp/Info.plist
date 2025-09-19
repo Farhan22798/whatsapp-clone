@@ -48,5 +48,16 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSCameraUsageDescription</key>
+<string>This is for Camera permission</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>This is for Mic permission</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>This app needs photo access to send and receive images.</string>
+<key>UIFileSharingEnabled</key>
+<true/>
+<key>NSBluetoothPeripheralUsageDescription</key>
+<string>This app uses Bluetooth for audio output during calls.</string>
+
 </dict>
 </plist>

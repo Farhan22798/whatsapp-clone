@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "855482639156",
+    "project_id": "push-52dd5",
+    "storage_bucket": "push-52dd5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855482639156:android:3f0b1d89ca257286bcfb61",
+        "android_client_info": {
+          "package_name": "com.cometchat.sampleapp.reactnative.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBssK55zffW6tEjdWePRzrElcL4_8_g0ds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

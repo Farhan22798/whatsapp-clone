@@ -77,9 +77,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.chattingapp"
+    namespace "com.cometchat.sampleapp.reactnative.android"
     defaultConfig {
-        applicationId "com.chattingapp"
+        applicationId "com.cometchat.sampleapp.reactnative.android"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -116,4 +116,11 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+    apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+    apply plugin: 'com.google.gms.google-services' // <- Add this line
+
+
 }
+
+
+
