@@ -111,10 +111,6 @@ _All features have been tested on physical devices after generating the APK._
 |--------------|------------|----------------|-------------|----------------|
 | ![CreateGroup](./Screenshots/CreateGoup.jpg) | ![JoinGroup](./Screenshots/JoinGroup.jpg) | ![GroupMembers](./Screenshots/GroupMembers.jpg) | ![AddMembersToGroup](./Screenshots/AddMembersToGroup.jpg) | ![BannedMembers](./Screenshots/BannedMembers.jpg) |
 
-### Profile
-| Profile |
-|---------|
-| ![Profile](./Screenshots/Profile.jpg) |
 
 ---
 
