@@ -97,9 +97,9 @@ _All features have been tested on physical devices after generating the APK._
 | ![Login](./Screenshots/Login.jpg) | ![CreateAccount](./Screenshots/CreateAccount.jpg) |
 
 ### Chat Interface
-| Chat Screen | Chat Options | Users List |
-|-------------|--------------|------------|
-| ![ChatScreen](./Screenshots/ChatScreen.jpg) | ![ChatScreenMore](./Screenshots/ChatScreenMore.jpg) | ![Users](./Screenshots/Users.jpg) |
+| Chat Screen | Chat Screen | Chat Options | Users List |
+|-------------|-------------|--------------|------------|
+| ![ChatScreen](./Screenshots/Conversations.jpg) | ![ChatScreen](./Screenshots/ChatScreen.jpg) | ![ChatScreenMore](./Screenshots/ChatScreenMore.jpg) | ![Users](./Screenshots/Users.jpg) |
 
 ### Calling
 | Incoming Call | Outgoing Call | Ongoing Call | Call Logs |
